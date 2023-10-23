@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://marketplace.canva.com/EAFrWiFpof4/1/0/1600w/canva-orange-spooky-halloween-desktop-wallpaper-2VpU8y-CW7I.jpg)
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline;
+   text-shadow: -1px 1px 2px rgb(0, 0, 0);
+   -webkit-text-stroke: 0.1px white;
+}
+
+h2 {
+    font: size 1px;
+    text-align: center; 
+    -webkit-text-stroke: 0.5px rgb(255, 30, 0);
+    text-shadow: -1px 1px 2px rgb(0, 0, 0);
+}
+
+h3 {
+    font: size 2px;
+    text-align: center; 
+    -webkit-text-stroke: 0.5px rgb(255, 0, 0);
+}
+
+p {
+    font: size 2px;
+    text-align:center; 
+    text-decoration: underline;
+    color: brown;
+    -webkit-text-stroke: 0.5px black
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1em solid #000000;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
