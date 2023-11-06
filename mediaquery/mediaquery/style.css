@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 111, 103);
+    text-decoration: underline;
+    align-items:center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 1200px;
+    border: solid rgb(249, 66, 66) 5px;
+}
+
+.header {
+    height: 20%;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    border: saddlebrown;
+}
+
+.middle {
+    height: 60%;
+    background: orange;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer {
+height: 20%;
+background: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(252, 117, 34);
+      padding: 1vh;
+    }
+    .middle img {
+        width: 30%;
+        height: 50%; 
+        
+    }
+  }
