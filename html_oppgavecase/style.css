@@ -1,0 +1,167 @@
+@media only screen and (max-width: 768px) { /*MOBILE*/
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    html   {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    body {
+        background-image: url(images/pink-black-checkered-squares.webp);
+    }
+    
+    .box2 {
+        display: flex;
+        height: 999vh;
+        width: 200vh;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .box3 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    h1 {
+        font-size: 20px; 
+        color: rgb(255, 255, 255);
+        align-items: center;
+        border-style: dotted dashed solid double;
+        background-color: rgb(255, 5, 138);
+    }
+    
+    h2 {
+        font-size: 50px;
+        color: rgb(255, 5, 138);
+        font-family: Impact;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #gorillaz_plasticbeach  {
+        float: right;    
+         margin: 0 0 0 15px;
+    }
+
+    #gorillaz_bandfoto {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    
+    .two_men {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-style: dotted dashed solid double;
+        background-color: rgb(255, 5, 138);
+    }
+     
+    .album {
+        display: flex;
+        flex-direction: row;
+        border-style: dotted dashed solid double;
+        background-color: rgb(255, 5, 138);
+    }
+}
+
+audio {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 767px) { /*COMPUTER*/
+    [class*="col-"] {
+        width: 100%;
+    }
+    .main-container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    body {
+        background-image: url(images/pink-black-checkered-squares.webp);
+    }
+    
+    .box2 {
+        display: flex;
+        height: 999vh;
+        width: 200vh;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .box3 {
+        display: flex;
+        height: 999vh;
+        width: 200vh;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    h1 {
+        font-size: 20px; 
+        color: rgb(255, 255, 255);
+    }
+    
+    h2 {
+        font-size: 50px;
+        color: rgb(255, 5, 138);
+        font-family: Impact;
+    }
+    
+    #gorillaz_plasticbeach  {
+        float: right;    
+         margin: 0 0 0 15px;
+    }
+    
+    .two_men {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+     
+    .album {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.img {
+    border-style: dotted dashed solid double;
+    background-color: rgb(255, 5, 138);
+    border: 10px;
+}
+
+.a {
+    border-style: dotted dashed solid double;
+    background-color: rgb(255, 5, 138);
+    border: 10px;
+}
