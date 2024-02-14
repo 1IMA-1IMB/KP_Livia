@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi converter</title>
+</head>
+<body>
+
+
+  <input id="inputPounds" type="number" placeholder="Skriv inn vekten her" oninput="vekt(this.value)" onchange="vekt(this.value)">
+</p>
+<p>Ounces: <span id="Ounces"></span></p>
+
+<script>
+function vekt(valNum) {
+  document.getElementById("Ounces").innerHTML=valNum*0.0295735;
+}
+
+</script>
+
+
+    <script src="convert.js"></script>
+
+</body>
+</html>
